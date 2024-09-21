@@ -1,0 +1,785 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol,li{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    padding: 40px;
+    height: 590px;
+    background-image: url(../images/mahalaya\ web\ banner-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.box-img{
+    width: 500px;
+    
+}
+.shop{
+    position: absolute;
+    border: 1px solid #f5d6cc;
+    cursor: pointer;
+    padding: 8px 15px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    background: #f5d6cc;
+    box-shadow: 5px 5px 5px 3px rgb(215 137 4);
+    bottom: 30%;
+    left: 19%;
+    transition: all ease-in-out 0.2s;
+}
+.shop:hover{
+    color: white;
+    border: 1px solid #f5d6cc;
+    background: none;
+    transition: all ease-in-out 0.2s;
+}
+        
+.fa-solid.ss{
+    margin-right: 5px;
+}
+header{
+    /* display: flex; */
+}
+nav{
+    background: rgb(255, 255, 255);
+    display: flex;
+    width: 1320px;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding: 13px 15px;
+    border-radius: 20px;
+}
+.search-bar{
+    background: rgb(217, 232, 249);
+    padding: 5px;
+    border-radius: 8px;
+}
+nav input{
+    width: 300px;
+    font-size: 17px;
+    border: none;
+    background: none;
+}
+nav input:focus{
+    outline: none;
+}
+.logo-sec{
+    display: flex;
+    font-family: "Baskervville SC", serif;
+    align-items: center;
+}
+.logo-sec .design{
+    margin-right: 10px;
+}
+.logo h5{
+    font-size: 22px;
+}
+.design.right{
+    margin-left: 10px;
+}
+.nav-menu{
+    display: flex;
+    width: 175px;
+    justify-content: space-between;
+}
+.nav-menu .account{
+    display: flex;
+    align-items: center;
+}
+.account a{
+    margin-left: 8px;
+    text-decoration: none;
+    color: black;
+}
+.account a:hover{
+    color: #960404;
+}
+.nav-menu .shoping{
+    display: flex;
+    align-items: center;
+}
+.shoping a{
+    margin-left: 8px;
+    text-decoration: none;
+    color: black;
+}
+.shoping a:hover{
+    color: #960404;
+}
+.mahalaya-design-outline{
+    position: absolute;
+    right: 109px;
+}
+.mahalaya-design{
+    position: absolute;
+}
+.line-design{
+    width: auto;
+    position: absolute;
+    animation: designanimation 8s linear infinite;
+}
+@keyframes designanimation{
+    100% {transform: rotate(360deg);}
+}
+
+/* catagory */
+
+.catagory{
+    display: flex;
+    width: 1320px;
+    margin: 90px auto;
+    justify-content: space-between;
+}
+.fashion-wrapper .fashion{
+    width: 200px;
+}
+.fashion-text p{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.fashion-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eletronic-wrapper .eletronics{
+    width: 200px;
+    height: 137px;
+}
+.eletronics-text p{
+    font-size: 20px;
+    margin-right: 5px;
+} 
+.eletronics-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.appliances-wrapper .appliances{
+    width: 200px;
+}
+.appliances-text p{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.appliances-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toy-wrapper .toy{
+    width: 200px;
+}
+.toy-text p{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.toy-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two-wheeler-wrapper .two-wheeler{
+    width: 200px;
+    height: 137px;
+}
+.two-wheeler-text P{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.two-wheeler-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* product-image-sec */
+
+.product-image-sec{
+    width: 1320px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.product-image-sec .left-image{
+    width: 500px;
+}
+.product-image-sec .image-wrapper{
+    position: relative;
+}
+.image-wrapper .top-image::before{
+    position: absolute;
+    content: 'SALE';
+    width: 40px;
+    padding: 7px;
+    background: rgb(215 0 0);
+    top: 21px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-wrapper .down-image{
+    margin-top: 30px;
+}
+
+/* latest-product */
+
+.latest-product{
+    margin: 125px auto 20px auto;
+    width: 1320px;
+}
+.latest-product h3{
+    font-size: 35px;
+    text-align: center;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+.list .type{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+.type li{
+    list-style: none;
+}
+li .type-of-product.t{
+    color: black;
+    font-weight: 500;
+}
+li .type-of-product{
+    text-decoration: none;
+    color: rgb(62, 61, 61);
+    font-size: 16px;
+}
+li .type-of-product:hover{
+    color: black;
+    font-weight: 500;
+}
+.filter{
+    display: flex;
+    background: rgb(215 0 0);
+    padding: 5px 15px;
+}
+/* .filter:hover{
+    background: none;
+} */
+.filter .fa-solid{
+    color: white;
+}
+/* .filter .fa-solid:hover{
+    color: #b70707;
+} */
+.filter a{
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+}
+/* .filter a:hover{
+    color: #960404;
+} */
+.latest-product-image{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.product-img .product-name{
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.rate{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+.rate .dress{
+    color: gray;
+}
+.rate .rat-e{
+    display: flex;
+    align-items: center;
+}
+.rat-e .before-rate{
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    color: red;
+}
+.rat-e .rupees{
+    margin-left: 3px;
+    font-weight: 500;
+}
+.latest-product-image .produc-t.im{
+    position: relative;
+}
+.latest-product-image .produc-t.im::before{
+    position: absolute;
+    content: 'SALE';
+    width: 40px;
+    padding: 7px;
+    background: rgb(215 0 0);
+    top: 21px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.produc-t.hot{
+    position: relative;
+}
+.produc-t.hot::before{
+    position: absolute;
+    content: 'HOT';
+    width: 40px;
+    padding: 7px;
+    background: rgb(215 0 0);
+    top: 21px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.produc-t.shu{
+    position: relative;
+}
+.produc-t.shu::before{
+    position: absolute;
+    content: 'SALE';
+    width: 40px;
+    padding: 7px;
+    background: rgb(215 0 0);
+    top: 21px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* add */
+
+.add{
+    margin: 100px auto;
+    background-image: url(../images/zara.png);
+    /* width: 100%; */
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 93px 333px;
+    position: relative;
+}
+.add::before{
+    content: '';
+    background-image: url(../images/1024px-Zara_Logo\ 1.png);
+    
+}
+
+.zara-text{
+    position: absolute;
+    right: 264px;
+    bottom: 95px;
+}
+.zara-text .zara-logo{
+    width: 190px;
+}
+.zara-text p{
+    color: white;
+    width: 379px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 300;
+    margin: 55px 0;
+}
+.zara-text .see{
+    padding: 10px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+.zara-text .see:hover{
+    background: none;
+    border: 2px solid rgb(189, 4, 4);
+    color: white;
+}
+
+/* best-sell */
+
+.best-sell{
+    width: 1320px;
+    margin: auto;
+}
+.best-sell h1{
+    text-align: center;
+    font-size: 35px;
+}
+.best-seel-products{
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+}
+.produc-t.im{
+    position: relative;
+}
+.produc-t.im::before{
+        position: absolute;
+        content: 'SALE';
+        width: 40px;
+        padding: 7px;
+        background: rgb(215 0 0);
+        top: 21px;
+        color: white;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+/* discount */
+
+.discount{
+    margin-top: 140px;
+    padding: 70px 100px;
+    background: rgb(246 224 229);
+}
+.discount h1{
+    text-align: center;
+    font-size: 50px;
+}
+.discount .discount-products{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    transition: all 0.4s ease-in-out;
+}
+.dis-img:hover{
+    transform: translate(0, -12px);
+    transition: all 0.4s ease-in-out;
+}
+.discount .text{
+    margin-top: 30px;
+}
+.discount .enter-email{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.enter-email input{
+    border: none;
+    background: none;
+    border-bottom: 2px solid black;
+    width: 760px;
+    font-size: 16px;
+    padding: 0 0 13px 15px;
+}
+.enter-email input:focus{
+    outline: none;
+}
+.enter-email input:hover{
+    background: #e5eef5;
+}
+.enter-email button{
+    width: 91px;
+    margin-left: 26px;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+.enter-email button:hover{
+    background: #b70707;
+    color: white;
+    transition: all ease-in-out 0.2s;
+}
+
+/* footer */
+
+footer{
+    padding: 80px 100px;
+    background: rgb(103 97 97);
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-icon{
+    width: 392px;
+}
+.design.site{
+    color: white;
+}
+.logo.coral{
+    color: white;
+}
+.footer-text{
+    margin-top: 32px;
+}
+.footer-text p{
+    color: white;
+}
+.social-icon{
+    width: 170px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.foot-details h5{
+    text-transform: uppercase;
+    margin-bottom: 22px;
+    font-size: 17px;
+    color: #ffffff;
+}
+.foot-details ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+.foot-details ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* pay-details */
+
+.pay-details{
+    background: #960404;
+    padding: 15px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pay-details p{
+    color: white;
+}
+.pay-details .scroll{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.scroll p{
+    margin-right: 8px;
+}
+
+
+@media screen and (min-width:1025px) and (max-width:1366px){
+    .banner{
+        height: 434px;
+    }
+    nav{
+        width: auto;
+    }
+    .box-img {
+        width: 400px;
+    }
+    .shop{
+        bottom: 17%;
+    }
+    .catagory{
+        margin: 65px auto;
+        width: auto;
+        padding: 0 40px;
+    }
+    .product-image-sec{
+        width: auto;
+        padding: 0 40px;
+    }
+    .product-image-sec .left-image {
+        width: 371px;
+    }
+    .product-image-sec .image-wrapper {
+        width: 229px;
+    }
+    .latest-product{
+        width: auto;
+        margin: 60px auto 20px auto;
+        padding: 0 40px;
+    }
+    .list{
+        margin-top: 30px;
+    }
+    .latest-product-image{
+        margin-top: 25px;
+    }
+    .product-img{
+        width: 245px;
+    }
+    .add{
+        margin: 60px auto;
+        padding: 40px;
+    }
+    .zara-text{
+        right: 60px;
+    }
+    .zara-text p{
+        font-size: 18px;
+    }
+    .zara-text .zara-logo{
+        width: 170px;
+    }
+    .best-sell{
+        width: auto;
+        padding: 0 40px;
+    }
+    .discount{
+        margin-top: 60px;
+        padding: 40px;
+    }
+    .discount h1{
+        font-size: 43px;
+    }
+    .discount .discount-products{
+        margin-top: 40px;
+    }
+    .dis-img{
+        width: 165px;
+    }
+    footer{
+        margin-top: 60px;
+        padding: 40px;
+    }
+
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .banner{
+        height: 275px;
+    }
+    nav{
+        width: auto;
+    }
+    .box-img {
+        width: 235px;
+    }
+    .shop{
+        bottom: 18%;
+    }
+    .catagory{
+        width: auto;
+        padding: 40px;
+        margin: 0;
+    }
+    
+    .fashion-wrapper .fashion{
+        width: 160px;
+    }
+    .fashion-text p{
+        font-size: 18px;
+    }
+    .eletronic-wrapper .eletronics{
+        width: 170px;
+        height: auto;
+    }
+    .eletronics-text p{
+        font-size: 18px;
+    }
+    .appliances-wrapper .appliances{
+        width: 160px;
+    }
+    .appliances-text p{
+        font-size: 18px;
+    }
+    .toy-wrapper .toy{
+        width: 160px;
+    }
+    .toy-text p{
+        font-size: 16px;
+        width: 120px;
+        text-align: center;
+    }
+    .two-wheeler-wrapper .two-wheeler{
+        width: 160px;
+        height: 110px;
+    }
+    .two-wheeler-text P{
+        font-size: 18px;
+    }
+
+    .product-image-sec{
+        width: auto;
+        padding: 0 40px;
+    }
+    .product-image-sec .left-image{
+        width: 326px;
+    }
+    .product-image-sec .image-wrapper{
+        width: auto;
+    }
+    .top-image{
+        width: 200px;
+    }
+    .down-image{
+        width: 200px;
+        margin-top: 10px;
+    }
+    .latest-product{
+        width: auto;
+        margin: 40px auto 20px auto;
+        padding: 0 40px;
+    }
+    .list{
+        margin-top: 25px;
+    }
+    .latest-product-image{
+        margin-top: 25px;
+    }
+    .product-img{
+        width: 210px;
+    }
+    .add{
+        margin: 60px auto;
+        padding: 40px;
+    }
+    .zara-text{
+        right: 60px;
+    }
+    .zara-text p{
+        font-size: 18px;
+    }
+    .zara-text .zara-logo{
+        width: 170px;
+    }
+    .best-sell{
+        width: auto;
+        padding: 0 40px;
+    }
+    .discount{
+        margin-top: 60px;
+        padding: 40px;
+    }
+    .dis-img{
+        width: 140px;
+    }
+    footer{
+        margin-top: 60px;
+        padding: 40px;
+    }
+    .logo-icon{
+        width: 365px;       
+    }
+
+}
+@media screen and (min-width:540px) and (max-width:768px){
+
+}
+@media screen and (min-width:320px) and (max-width:539px){
+
+}
